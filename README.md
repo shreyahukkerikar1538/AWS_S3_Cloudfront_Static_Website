@@ -5,7 +5,7 @@ This project demonstrates how to host a static website using AWS S3 and distribu
 -An AWS Free Tier account
 -Basic knowledge of AWS services
 
-# create a bucket in AWS 
+# create a s3 bucket in AWS 
 
 1.Log in to the AWS Console.
 2.Go to S3 and click Create Bucket.
@@ -13,3 +13,9 @@ This project demonstrates how to host a static website using AWS S3 and distribu
 4.Select a region (e.g., us-east-1).
 6.Uncheck "Block all public access" to allow public file access.
 7.Click Create Bucket.
+
+# Enable Static Website Hosting
+Open your S3 bucket and go to the Properties tab.
+Scroll to Static website hosting and click Edit.
+Select Enable and set the Index document to index.html.
+Click Save Changes.
