@@ -15,7 +15,7 @@ This project demonstrates how to host a static website using AWS S3 and distribu
 7.Click Create Bucket.
 
 # Enable Static Website Hosting
-Open your S3 bucket and go to the Properties tab.
-Scroll to Static website hosting and click Edit.
-Select Enable and set the Index document to index.html.
-Click Save Changes.
+1.Open your S3 bucket and go to the Properties tab.
+2.Scroll to Static website hosting and click Edit.
+3.Select Enable and set the Index document to index.html.
+4.Click Save Changes.
