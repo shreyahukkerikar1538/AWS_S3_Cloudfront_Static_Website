@@ -19,3 +19,22 @@ This project demonstrates how to host a static website using AWS S3 and distribu
 2.Scroll to Static website hosting and click Edit.
 3.Select Enable and set the Index document to index.html.
 4.Click Save Changes.
+
+# Configure S3 Bucket Permissions
+1. Open your S3 bucket and go to the Permissions tab.
+2.Scroll to Bucket Policy and click Edit.
+3.Add this policy to allow public access:
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::my-static-site/*"
+    }
+  ]
+}
+4. Click Save Changes.
+
+
