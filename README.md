@@ -37,4 +37,15 @@ This project demonstrates how to host a static website using AWS S3 and distribu
 }
 4. Click Save Changes.
 
+# Set Up CloudFront Distribution
+1.Go to the AWS CloudFront service.
+2.Click Create Distribution.
+3.Under Origin, select your S3 bucket.
+4.Set Viewer Protocol Policy to Redirect HTTP to HTTPS.
+5.Click Create Distribution.
+
+# Get Your CloudFront Domain
+1.After CloudFront is deployed, copy the CloudFront Domain Name (e.g., d123abc.cloudfront.net).
+2.Use this domain to access your website.
+
 
